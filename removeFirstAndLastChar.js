@@ -23,3 +23,10 @@ function array(string) {
 
   return stringArr.join(" ");
 }
+
+
+// shorthand:
+
+function array(string){
+    return string.split(",").slice(1,-1).join(" ") || null;
+  }
